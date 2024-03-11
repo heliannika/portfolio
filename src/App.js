@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/styles.css';
+import { useMediaQuery } from 'react-responsive'
 
 function App() {
+
+  // Testing what device user is using. Using this to make the site responsive.
+
+  const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+      <nav></nav>
+
+        <div className="deviceTest">
+            {isDesktopOrLaptop && <p>You are using desktop or laptop</p>}
+            {isBigScreen && <p>You are using big screen</p>}
+            {isTabletOrMobile && <p>You are using a tablet or mobilephone</p>}
+        </div>
+    
+      <div>
+        kdfjsdkfkj
+        sjfdfjdsfiiofiodfuiodfuiod
+        dklfdfdfjdfjd
+        dfkdfkdjkdfjdf
+        dfkdfkdjkdfjdfkd
+        idfhidfhidfhdifh
+        dhfdfhidfhi
+        dfihdfidfdhfu
+        ifhidfhidfhidfh
+        dfhidfhidfhidf
+        kdfidfhidhdifhdif
+      </div>
     </div>
   );
 }
 
 export default App;
+
