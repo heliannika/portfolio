@@ -12,30 +12,72 @@ a {
 ul {
     margin: 0;
 }
+nav {
+    display: block;
+}
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
   
-  nav li {
+nav li {
     float: left;
-  }
+}
   
-  nav li a {
+nav li a {
     display: block;
     color: rgb(110, 143, 109);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-toggle span {
+    background-color: #333;
+    display: block;
+    height: 3px;
+    margin-bottom: 5px;
+    width: 25px;
+}
   
-  @media screen and (max-width: 600px) {
-    nav li {
-      float: none;
-      display: block;
-      text-align: left;
+@media screen and (max-width: 600px) {
+        .menu-toggle {
+          display: block;
+          cursor: pointer;
+        }
+      
+        nav ul {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          text-align: center;
+        }
+      
+        nav ul.show {
+          display: flex;
+        }
+      
+        nav li {
+          float: none;
+        }
+      
+        nav li a {
+          padding: 10px;
+        }
+      }
+    .container {
+        background-image: url('../images/forest.jpg');
+        background-size: cover;
+        height: 100vh;
+        position: sticky;
     }
-  }
