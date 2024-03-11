@@ -11,14 +11,21 @@ function App() {
 
   return (
     <div className="container">
+      {/* Simple menu for navigation. */}
+      <nav>
+        <ul>
+          <li><a href="#">Front page</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Work experience</a></li>
+          <li><a href="#">Education</a></li>
+        </ul>
+      </nav>
 
-      <nav></nav>
-
-        <div className="deviceTest">
-            {isDesktopOrLaptop && <p>You are using desktop or laptop</p>}
-            {isBigScreen && <p>You are using big screen</p>}
-            {isTabletOrMobile && <p>You are using a tablet or mobilephone</p>}
-        </div>
+      <div className="deviceTest">
+          {isDesktopOrLaptop && <p>You are using desktop or laptop</p>}
+          {isBigScreen && <p>You are using big screen</p>}
+          {isTabletOrMobile && <p>You are using a tablet or mobilephone</p>}
+      </div>
     
       <div>
         kdfjsdkfkj
