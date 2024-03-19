@@ -41,17 +41,7 @@ function App() {
       </div> */}
     
       <div>
-        kdfjsdkfkj
-        sjfdfjdsfiiofiodfuiodfuiod
-        dklfdfdfjdfjd
-        dfkdfkdjkdfjdf
-        dfkdfkdjkdfjdfkd
-        idfhidfhidfhdifh
-        dhfdfhidfhi
-        dfihdfidfdhfu
-        ifhidfhidfhidfh
-        dfhidfhidfhidf
-        kdfidfhidhdifhdif
+        Content
       </div>
     </div>
   );

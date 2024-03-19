@@ -1,5 +1,5 @@
 .container {
-    background-image: url('../images/forest.jpg');
+    background-color: #9cadce;
     background-size: cover;
     height: 100vh;
 }
@@ -13,17 +13,17 @@ ul {
     margin: 0;
 }
 nav {
-    display: block;
+  border-radius: 100;
+  background-color: #d1cfe2;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: 30;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    overflow: hidden;
 }
   
 nav li {
@@ -32,10 +32,13 @@ nav li {
   
 nav li a {
     display: block;
-    color: rgb(110, 143, 109);
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 40px;
     text-decoration: none;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .menu-toggle {
@@ -43,7 +46,7 @@ nav li a {
 }
 
 .menu-toggle span {
-    background-color: #333;
+    background-color: #d1cfe2;
     display: block;
     height: 3px;
     margin-bottom: 5px;
@@ -76,7 +79,7 @@ nav li a {
         }
       }
     .container {
-        background-image: url('../images/forest.jpg');
+        background-color: #9cadce;
         background-size: cover;
         height: 100vh;
         position: sticky;
