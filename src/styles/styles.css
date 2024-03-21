@@ -28,6 +28,9 @@ a {
   list-style-type: none;
   padding-right: 10px;
   display: inline-block;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hamburger {
@@ -55,6 +58,9 @@ a {
 li {
     padding-right: 10px;
     list-style-type: none;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
 }
   
 @media screen and (max-width: 767px) {
