@@ -24,7 +24,7 @@ function App() {
           {isTabletOrMobile && <p>You are using a tablet or mobilephone</p>}
       </div> */}
     
-      <div>
+      <div className="content">
         Content
       </div>
     </div>

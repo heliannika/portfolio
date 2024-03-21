@@ -18,8 +18,8 @@ export default function Nav() {
         backgroundColor: '#d1cfe2',
         height: '100vh',
         width: '50vw',
-        marginTop: '50px',
-        position: 'absolute'
+        position: 'absolute',
+        zIndex: '9999'
     };
 
     return(
