@@ -11,20 +11,6 @@ function App() {
   // const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
   // const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
-  const [showMenu, setShowMenu] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
-
-  const toggleMenuOnMobile = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-    console.log("Menu opened");
-    console.log(mobileMenuOpen);
-  }
-
-
   return (
     <div className="container" 
         styles={{overflowY: 'scroll'}}>
