@@ -2,6 +2,12 @@ import { useState } from 'react';
 import '../styles/styles.css';
 import Hamburger from './hamburger';
 import { useMediaQuery } from 'react-responsive';
+import { Outlet, Link } from "react-router-dom";
+
+// Importing page components.
+
+import Projects from '../pages/projects';
+
 
 export default function Nav() {
 
@@ -24,29 +30,31 @@ export default function Nav() {
 
     return(
         <div>
-            {/* Simple menu for navigation. */}
-                <div className="navigation">
-                    <ul style={{ display: isTabletOrMobile ? 'none' : 'block' }}>
-                        <li>Front page</li>
-                        <li>Projects</li>
-                        <li>Work experience</li>
-                        <li>Education</li>
-                    </ul>
+             {/* Simple menu for navigation. */}
+                    <div className="navigation">
+                        <nav>
+                            <ul style={{ display: isTabletOrMobile ? 'none' : 'block' }}>
+                                <li><a>Front page</a></li>
+                                <li>Projects</li>
+                                <li>Work experience</li>
+                                <li>Education</li>
+                            </ul>
+                        </nav>
 
-                    <div className="hamburger" onClick={toggleHamburgerMenu}>
-                        <Hamburger />
+                        <div className="hamburger" onClick={toggleHamburgerMenu}>
+                            <Hamburger />
+                        </div>
                     </div>
-                </div>
 
-                {/* Adding pages to hamburger menu. */}
-                <div style={menuStyles}>
-                    <ul>
-                        <li>Front page</li>
-                        <li>Projects</li>
-                        <li>Work experience</li>
-                        <li>Education</li>
-                    </ul>
-            </div>
+                    {/* Adding pages to hamburger menu. */}
+                    <div style={menuStyles}>
+                        <ul>
+                            <li>Front page</li>
+                            <li>Projects</li>
+                            <li>Work experience</li>
+                            <li>Education</li>
+                        </ul>
+                </div>
         </div>
     );
           

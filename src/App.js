@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './styles/styles.css';
 import { useMediaQuery } from 'react-responsive';
 import Nav from './components/nav';
+import Projects from './pages/projects';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <div className="container" 
         styles={{overflowY: 'scroll'}}>
       <div className="nav">
-        <Nav />
+          <Nav />
       </div>
 
       {/* <div className="deviceTest">
