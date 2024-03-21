@@ -27,11 +27,12 @@ a {
 .navigation ul li {
   list-style-type: none;
   padding-right: 10px;
+  display: inline-block;
 }
 
 .hamburger {
   width: 2rem;
-  height: 2rem;
+  height: 4rem;
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
@@ -45,6 +46,10 @@ a {
   background-color: black;
   transform-origin: 1px;
   transition: all 0.3s linear;
+}
+
+.hamburger {
+  display: none;
 }
   
 @media screen and (max-width: 767px) {
