@@ -3,6 +3,7 @@ import './styles/styles.css';
 import { useMediaQuery } from 'react-responsive';
 import Nav from './components/nav';
 import Projects from './pages/projects';
+import image from './images/portfolioonkuva(1).jpg';
 
 function App() {
 
@@ -26,7 +27,16 @@ function App() {
       </div> */}
     
       <div className="content">
-        Content
+        <header className="header">
+          <h1 className="name">Heli Rajamäki</h1>
+          <div className="image">
+            <img src={image} alt="Image" />
+          </div>
+        </header>
+        <header className="header">
+          <h1 className="aboutme">Business information technology student graduating in 2025 & future multitalent in IT field looking for new opportunities!</h1>
+          <p className="description">HTML - CSS - React - Vanilla JS - Python - PHP - SQL - UI/UX design - Web design</p>
+        </header>
       </div>
     </div>
   );

@@ -25,7 +25,8 @@ export default function Nav() {
         height: '100vh',
         width: '50vw',
         position: 'absolute',
-        zIndex: '9999'
+        zIndex: '9999',
+        top: '50px'
     };
 
     return(
