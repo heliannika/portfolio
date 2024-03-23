@@ -2,12 +2,9 @@ import { useState } from 'react';
 import '../styles/styles.css';
 import Hamburger from './hamburger';
 import { useMediaQuery } from 'react-responsive';
-import { Outlet, Link } from "react-router-dom";
-
-// Importing page components.
-
-import Projects from '../pages/projects';
-
+import { Outlet, Link, BrowserRouter, Route, Routes } from "react-router-dom";
+import React from 'react';
+import ProjectsPg from '../pages/projects';
 
 export default function Nav() {
 
@@ -35,7 +32,7 @@ export default function Nav() {
                     <div className="navigation">
                         <nav>
                             <ul style={{ display: isTabletOrMobile ? 'none' : 'block' }}>
-                                <li><a>Front page</a></li>
+                                <li>Front page</li>
                                 <li>Projects</li>
                                 <li>Work experience</li>
                                 <li>Education</li>
@@ -55,7 +52,7 @@ export default function Nav() {
                             <li>Work experience</li>
                             <li>Education</li>
                         </ul>
-                </div>
+                    </div>
         </div>
     );
           

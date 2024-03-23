@@ -1,7 +1,32 @@
-export default function Projects() {
+export default function ProjectsPg() {
     return(
         <div>
-            Ei vielä mitään
+            <p>Ei vielä mitään
+
+
+            fsffdfd
+
+            defaultdf
+            default
+
+            defaultdfd
+            falsedf
+            defaultd
+
+            defaultdff
+            defaultdff
+            default
+            dsdsd
+            sdsd
+            defaults
+            sdsddd
+
+            dsdsdd
+            sdsdsd
+            s
+
+            sdsdsd
+            </p>
         </div>
     )
 }

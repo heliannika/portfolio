@@ -4,6 +4,8 @@ import { useMediaQuery } from 'react-responsive';
 import Nav from './components/nav';
 import Projects from './pages/projects';
 import image from './images/portfolioonkuva(1).jpg';
+import { Outlet, Link, BrowserRouter, Route, Routes } from "react-router-dom";
+import ProjectsPg from './pages/projects';
 
 function App() {
 
@@ -16,10 +18,9 @@ function App() {
   return (
     <div className="container" 
         styles={{overflowY: 'scroll'}}>
-      <div className="nav">
-          <Nav />
-      </div>
-
+        <div className="nav">
+            <Nav />
+        </div>
       {/* <div className="deviceTest">
           {isDesktopOrLaptop && <p>You are using desktop or laptop</p>}
           {isBigScreen && <p>You are using big screen</p>}
