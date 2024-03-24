@@ -4,7 +4,7 @@ import Hamburger from './hamburger';
 import { useMediaQuery } from 'react-responsive';
 import { Outlet, Link, BrowserRouter, Route, Routes } from "react-router-dom";
 import React from 'react';
-import ProjectsPg from '../pages/projects';
+import Home from '../pages/home';
 
 export default function Nav() {
 
@@ -32,10 +32,10 @@ export default function Nav() {
                     <div className="navigation">
                         <nav>
                             <ul style={{ display: isTabletOrMobile ? 'none' : 'block' }}>
-                                <li>Front page</li>
-                                <li>Projects</li>
-                                <li>Work experience</li>
-                                <li>Education</li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="./projects">Projects</Link></li>
+                                <li><Link to="./workexperience">Work experience</Link></li>
+                                <li><Link to="./education">Education</Link></li>
                             </ul>
                         </nav>
 
