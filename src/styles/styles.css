@@ -1,16 +1,23 @@
 .container {
-    background-color: #d1cfe2;
-    background-size: cover;
-    height: 100vh;
-    max-width: 100%;
-    overflow-x: hidden;
+  background-color: #d1cfe2;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
 p {
-    margin: 0;
-    max-width: 100%;
+  margin: 0;
+  max-width: 100%;
 }
+
 a {
-    margin: 0;
+  color: #4f5a70;
+  text-decoration: none;
+
+}
+a:hover {
+  color: #9cadce;
 }
 
 .navigation {
@@ -120,7 +127,7 @@ li {
   margin: 15px;
   color: #4f5a70;
   text-align: left;
-  margin-top: 147px;
+  margin-top: 120px;
 }
 
 .description {
@@ -132,6 +139,90 @@ li {
   padding-top: 15px;
   color: #4f5a70;
   text-align: left;
+}
+
+.projectname {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+}
+
+.projectname2 {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+  margin-top: 120px;
+}
+
+.projectdescription {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+}
+
+.projectonewireframes {
+  margin-left: 15px;
+}
+
+.weheader {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+}
+
+.weheader2 {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+  margin-top: 190px;
+}
+
+.edheader {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+}
+
+.edheader2 {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 15px;
+  padding-top: 15px;
+  color: #4f5a70;
+  text-align: left;
+  margin-top: 122px;
 }
   
 @media screen and (max-width: 767px) {

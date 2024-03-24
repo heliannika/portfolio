@@ -47,10 +47,10 @@ export default function Nav() {
                     {/* Adding pages to hamburger menu. */}
                     <div style={menuStyles}>
                         <ul>
-                            <li>Front page</li>
-                            <li>Projects</li>
-                            <li>Work experience</li>
-                            <li>Education</li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="./projects">Projects</Link></li>
+                            <li><Link to="./workexperience">Work experience</Link></li>
+                            <li><Link to="./education">Education</Link></li>
                         </ul>
                     </div>
         </div>
